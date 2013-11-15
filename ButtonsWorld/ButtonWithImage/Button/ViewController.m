@@ -21,8 +21,11 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     button.frame = CGRectMake(400, 300, 259, 93);
     [button setTitle:@"" forState:UIControlStateNormal];
+    
+    // to set button image 
     [button setImage:[UIImage imageNamed:@"Start.jpg"] forState:UIControlStateNormal];
 
+    // to set button highlighted image 
     [button setImage:[UIImage imageNamed:@"Start+2.jpg"] forState:UIControlStateHighlighted];
 
     [self.view addSubview:button];
